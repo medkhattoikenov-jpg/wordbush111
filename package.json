@@ -1,0 +1,35 @@
+{
+  "name": "wordrush-mini",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Teacher-controlled live multiplayer vocabulary quiz for English classes",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node scripts/test.js",
+    "migrate": "node scripts/migrate.js",
+    "check": "node scripts/check.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.3.14",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.3",
+    "express": "^4.22.3",
+    "express-rate-limit": "^8.1.0",
+    "express-session": "^1.18.2",
+    "helmet": "^8.1.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.16.3",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10",
+    "socket.io-client": "^4.8.4"
+  }
+}

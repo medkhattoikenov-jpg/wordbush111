@@ -1,0 +1,28 @@
+{
+  "id": "holidays-2a",
+  "title": "Holiday Hunt — Unit 2A",
+  "subtitle": "English File 4th Ed. · Pre-Intermediate · Holidays",
+  "duration": 20,
+  "questions": [
+    {"prompt":"What does ‘go abroad’ mean?", "options":["Ехать за границу","Ехать за город","Ходить гулять","Покупать билеты"],"correct":0},
+    {"prompt":"Choose ‘Осматривать достопримечательности’.","options":["Go camping","Go sightseeing","Go skiing","Go abroad"],"correct":1},
+    {"prompt":"What does ‘go camping’ mean?","options":["Жить в гостинице","Ходить по магазинам","Отдыхать с палатками","Плавать в море"],"correct":2},
+    {"prompt":"Choose ‘Кататься на лыжах’.","options":["Go cycling","Go swimming","Go hiking","Go skiing"],"correct":3},
+    {"prompt":"What does ‘go swimming’ mean?","options":["Ходить плавать","Ходить кататься на лыжах","Отдыхать с палатками","Ходить за покупками"],"correct":0},
+    {"prompt":"Choose ‘Ехать в отпуск’.","options":["Go to work","Go on holiday","Go to bed","Go home"],"correct":1},
+    {"prompt":"What does ‘go away for the weekend’ mean?","options":["Вернуться на выходные","Работать по выходным","Уезжать на выходные","Спать весь день"],"correct":2},
+    {"prompt":"Choose ‘Выходить куда-либо вечером’.","options":["Stay at home","Go for a walk","Go camping","Go out at night"],"correct":3},
+    {"prompt":"What does ‘go for a walk’ mean?","options":["Ходить на прогулку","Ходить по магазинам","Ехать в отпуск","Кататься на лыжах"],"correct":0},
+    {"prompt":"Choose ‘Бронировать авиабилет’.","options":["Buy souvenirs","Book a flight","Hire a bicycle","Rent an apartment"],"correct":1},
+    {"prompt":"What does ‘rent an apartment’ mean?","options":["Продать квартиру","Построить квартиру","Арендовать квартиру","Убирать квартиру"],"correct":2},
+    {"prompt":"Choose ‘Брать велосипед напрокат’.","options":["Ride a horse","Rent an apartment","Drive a car","Hire a bicycle"],"correct":3},
+    {"prompt":"What does ‘buy souvenirs’ mean?","options":["Покупать сувениры","Продавать сувениры","Дарить сувениры","Делать фотографии"],"correct":0},
+    {"prompt":"Choose ‘Останавливаться в отеле’.","options":["Stay with friends","Stay in a hotel","Book a flight","Go camping"],"correct":1},
+    {"prompt":"What does ‘stay with friends’ mean?","options":["Гулять с друзьями","Навещать друзей","Останавливаться у друзей","Путешествовать с друзьями"],"correct":2},
+    {"prompt":"Choose ‘Тратить деньги’.","options":["Save money","Earn money","Borrow money","Spend money"],"correct":3},
+    {"prompt":"What does ‘sunbathe’ mean?","options":["Загорать","Плавать","Бегать","Стирать"],"correct":0},
+    {"prompt":"Choose ‘Фотографировать’.","options":["Look at photos","Take photos","Buy photos","Print photos"],"correct":1},
+    {"prompt":"What does ‘have a good time’ mean?","options":["Хорошо спать","Вовремя приходить","Хорошо проводить время","Усердно работать"],"correct":2},
+    {"prompt":"Choose ‘Кемпинг, место для палаток’.","options":["Airport","Cottage","Hostel","Campsite"],"correct":3}
+  ]
+}

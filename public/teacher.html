@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#101326" />
+    <title>WordRush · Teacher Control</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/platform.css" />
+  </head>
+  <body class="teacher-body">
+    <div class="background-art"></div>
+    <div class="app-shell teacher-shell">
+      <header class="site-header">
+        <a class="logo" href="/"
+          ><span class="logo-mark">W</span>WORD<span>RUSH</span
+          ><span class="logo-dot">.</span></a
+        ><span class="header-tag">TEACHER CONTROL ROOM ✦</span>
+      </header>
+      <div id="host-message" class="live-message" role="status"></div>
+      <main id="teacher-screen">
+        <section class="teacher-login-wrap">
+          <p role="status">Restoring your classroom…</p>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <span>WORDRUSH · LIVE CLASSROOM EDITION</span
+        ><a href="/">Student join page ↗</a>
+      </footer>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/common.js" defer></script>
+    <script src="/teacher.js" defer></script>
+  </body>
+</html>

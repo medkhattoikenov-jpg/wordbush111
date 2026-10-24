@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#101326" />
+    <title>WordRush · Join a Game</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/platform.css" />
+  </head>
+  <body>
+    <div class="background-art"></div>
+    <div class="app-shell student-shell">
+      <header class="site-header">
+        <a class="logo" href="/"
+          ><span class="logo-mark">W</span>WORD<span>RUSH</span
+          ><span class="logo-dot">.</span></a
+        ><span class="header-tag">VOCAB GAME NIGHT ✦</span>
+      </header>
+      <main id="screen" aria-live="polite">
+        <section class="entry-layout">
+          <div class="entry-copy">
+            <div class="eyebrow">✦ THE CLASSROOM IS YOUR ARENA</div>
+            <h1>
+              Words.<br /><span class="gradient-text">Ready.</span><br />Go!
+            </h1>
+            <p>Grab your phone, enter the game PIN, and show what you know.</p>
+            <div class="pill-line">
+              <span>⚡ Quick rounds</span><span>🏆 Real rankings</span>
+            </div>
+          </div>
+          <form id="join-form" class="panel join-panel">
+            <div class="join-icon">⚡</div>
+            <div class="panel-overline">LET'S GET YOU IN</div>
+            <h2>Join your game</h2>
+            <label for="pin">6-DIGIT GAME PIN</label
+            ><input
+              id="pin"
+              name="pin"
+              type="text"
+              inputmode="numeric"
+              pattern="[0-9]{6}"
+              maxlength="6"
+              autocomplete="off"
+              placeholder="000 000"
+              required
+            /><label for="nickname">YOUR NAME</label
+            ><input
+              id="nickname"
+              name="nickname"
+              type="text"
+              maxlength="24"
+              autocomplete="nickname"
+              placeholder="Your first name"
+              minlength="2"
+              required
+            />
+            <p id="form-error" class="error-message" role="alert"></p>
+            <button class="primary-button" id="join-button" type="submit">
+              ENTER THE ARENA <span>→</span>
+            </button>
+            <div class="card-footnote">
+              No account needed. Just your game PIN.
+            </div>
+          </form>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <span>BUILT FOR LANGUAGE CLASSROOMS</span
+        ><a href="/teacher">Teacher access ↗</a>
+      </footer>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/student.js" defer></script>
+  </body>
+</html>
